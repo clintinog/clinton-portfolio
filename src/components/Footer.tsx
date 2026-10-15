@@ -13,7 +13,7 @@ export default function Footer() {
             JP
           </div>
           <div>
-            <span className="font-semibold text-[var(--text-heading)]">Jordan Pene</span>
+            <span className="font-semibold text-[var(--text-heading)]">Clinton Caspa</span>
             <span className="mx-2 text-[var(--border-color)]">•</span>
             <span>© {currentYear} All rights reserved</span>
           </div>
@@ -29,7 +29,7 @@ export default function Footer() {
             <Mail className="w-4 h-4" />
           </a>
           <a
-            href="[LINKEDIN URL]"
+            href="https://www.linkedin.com/in/caspa-clinton-735a37209/?isSelfProfile=true"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#3B4A8C] transition-colors p-1.5 rounded-lg hover:bg-[var(--bg-card)]"
@@ -38,7 +38,7 @@ export default function Footer() {
             <LinkedinIcon className="w-4 h-4" />
           </a>
           <a
-            href="https://github.com/JPene66"
+            href="https://github.com/clintinog"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#1BA098] transition-colors p-1.5 rounded-lg hover:bg-[var(--bg-card)]"

@@ -616,17 +616,17 @@ export default function GetInTouch() {
             index={0}
           />
           <SocialCard
-            href="https://github.com/JPene66"
+            href="https://github.com/clintinog"
             target="_blank"
             rel="noopener noreferrer"
             icon={<GithubIcon className="w-5 h-5" />}
             accentColor="#94a3b8"
             label="GitHub Repos"
-            sublabel="github.com/JPene66"
+            sublabel="github.com/clintinog"
             index={1}
           />
           <SocialCard
-            href="[LINKEDIN URL]"
+            href="https://www.linkedin.com/in/caspa-clinton-735a37209/?isSelfProfile=true"
             target="_blank"
             rel="noopener noreferrer"
             icon={<LinkedinIcon className="w-5 h-5" />}

@@ -25,10 +25,10 @@ export default function Nav() {
           className="flex items-center gap-2.5 group font-bold tracking-tight text-[var(--text-heading)]"
         >
           <div className="w-8 h-8 rounded-lg bg-[var(--color-navy)] border border-[#1BA098]/30 flex items-center justify-center text-[#1BA098] group-hover:border-[#1BA098] transition-colors font-mono text-xs shadow-sm">
-            JP
+            CC
           </div>
           <span className="text-base sm:text-lg font-extrabold tracking-tight">
-            Jordan<span className="text-[#1BA098]">.Pene</span>
+            Clinton<span className="text-[#1BA098]">.Caspa</span>
           </span>
         </Link>
 

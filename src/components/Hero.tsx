@@ -12,7 +12,7 @@ import { textRevealContainer, textRevealWord, customEase } from "@/lib/motion";
 export default function Hero() {
   const [imgError, setImgError] = useState(false);
 
-  const headlineWords = "Jordan Pene".split(" ");
+  const headlineWords = "Clinton Caspa".split(" ");
 
   return (
     <section
@@ -136,19 +136,19 @@ export default function Hero() {
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[380px] md:h-[380px] lg:w-[440px] lg:h-[440px] rounded-3xl overflow-hidden bg-[var(--color-navy)] border-2 border-[var(--border-color)] shadow-2xl flex items-center justify-center">
                 {!imgError ? (
                   <Image
-                    src="/images/profile.jpeg"
-                    alt="Jordan Pene Profile Photo"
+                    src="/images/profile1.png"
+                    alt="Clinton Caspa Profile Photo"
                     width={600}
                     height={600}
                     priority
                     className="object-cover object-top w-full h-full"
                     onError={() => setImgError(true)}
-                  />
+                  /> 
                 ) : (
                   /* Fallback initials avatar when image is missing */
                   <div className="w-full h-full flex flex-col items-center justify-center bg-[#1F2A44] text-[#1BA098] p-4 text-center">
-                    <span className="text-6xl font-extrabold tracking-wider">JP</span>
-                    <span className="text-sm text-[var(--text-muted)] mt-2 font-mono uppercase tracking-widest">Jordan Pene</span>
+                    <span className="text-6xl font-extrabold tracking-wider">CC</span>
+                    <span className="text-sm text-[var(--text-muted)] mt-2 font-mono uppercase tracking-widest">Clinton Caspa</span>
                   </div>
                 )}
               </div>
