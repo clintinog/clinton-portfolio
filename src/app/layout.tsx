@@ -11,15 +11,15 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jordanpene.ai"),
-  title: "Jordan Pene — AI Engineer | Prompt Engineering, RAG & Autonomous Agents",
+  metadataBase: new URL("https://clinton-portfolio-lovat.vercel.app/"),
+  title: "Clinton Caspa AI Engineer | ERP Implementation, RAG & Autonomous Agents",
   description:
-    "Production-ready AI Engineering portfolio for Jordan Pene — specializing in Prompt Engineering & Evaluation, RAG systems, ChromaDB, and Autonomous Agents with LangGraph.",
+    "Production-ready AI Engineering portfolio for Clinton Caspa — specializing in ERP Implementation, LLM Evaluation, RAG systems, ChromaDB, and Autonomous Agents with LangGraph.",
   keywords: [
-    "Jordan Pene",
+    "Clinton Caspa",
     "AI Engineer",
     "Applied AI Engineer",
-    "Prompt Engineering",
+    "ERP Implementation",
     "RAG",
     "Vector Database",
     "ChromaDB",
@@ -28,18 +28,18 @@ export const metadata: Metadata = {
     "LLM Evaluation",
     "AI Architecture",
   ],
-  authors: [{ name: "Jordan Pene" }],
+  authors: [{ name: "Clinton Caspa" }],
   openGraph: {
-    title: "Jordan Pene — AI Engineer Portfolio",
+    title: "Clinton Caspa — AI Engineer Portfolio",
     description:
       "I build AI systems that go from prompt to production — deployed applications with real evaluation, guardrails, and cited answers.",
     type: "website",
     locale: "en_US",
-    siteName: "Jordan Pene AI Portfolio",
+    siteName: "Clinton Caspa AI Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jordan Pene — AI Engineer",
+    title: "Clinton Caspa — AI Engineer",
     description:
       "I build AI systems that go from prompt to production — deployed applications with real evaluation, guardrails, and cited answers.",
   },
